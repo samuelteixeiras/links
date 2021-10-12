@@ -1,8 +1,8 @@
 /* Style Settings */
 @import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
 :root {
-    --bgColor: white;
-    --accentColor: #39e09b;
+    --bgColor: rgb(0, 0, 0);
+    --accentColor: #ffffff;
     --font: 'Karla', sans-serif;
 }
 
@@ -11,14 +11,11 @@ body{
 }
 
 #userPhoto{
-    width: 96px;
-    height: 96px;
     display: block;
     margin: 35px auto 20px;
-    border-radius: 50%;
 }
 
-#userName{
+.generalText {
     color: #bbb;
     font-size: 1rem;
     font-weight: 600;
@@ -36,7 +33,7 @@ body{
     display: block;
     margin: 27px auto;
 }
-.link{
+ .link{
     display: block;
     background-color: var(--accentColor);
     color: var(--bgColor);
@@ -48,7 +45,10 @@ body{
     font-size: 1rem;
     transition: all .25s cubic-bezier(.08,.59,.29,.99);
     border: solid var(--accentColor) 2px;
-}
+    border-radius: 10px;
+    -webkit-tap-highlight-color: transparent;
+} 
+
 
 .link:hover{
     background-color: var(--bgColor);
