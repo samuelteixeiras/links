@@ -1,5 +1,5 @@
 # links
-My personal networks links
+My personal network links
 
 On Github pages
 https://samuelteixeiras.github.io/links/
